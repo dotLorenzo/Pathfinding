@@ -9,7 +9,7 @@ The game graphically compute paths between pairs of start and end coordinates us
 
 Run game_pathfinding.py
 
-Use the Arrow Keys to move the player around the map. Press the mouse button to compute paths between the players (x,y) coordinates and the (x,y) coordinates of the mouse. 
+Use the Arrow Keys to move the player around the map. Press the mouse button to compute paths between the players position and the position of the mouse click. 
 
 One can play around with the window dimensions in config.py and use the generate_map() function in map_generation.py by passing in a list of sprites to generate new maps of different sizes with varying numbers of different obstacles at random locations.
 
