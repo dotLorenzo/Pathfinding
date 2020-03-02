@@ -15,6 +15,8 @@ One can play around with the window dimensions in config.py and use the generate
 
 Obstacles such as trees and buildings cannot be walked through, whereas grass and water is traversable yet incurs a movement cost to the player (reduced movement speed).
 
+If you want to change which routes are computed, comment out the relevant route being draw in redraw_gamewindow() in game_pathfinding.py and route being computed in compute_all_paths() in pathfinding.py.
+
 # Requirements
 
 - python3.7
