@@ -40,7 +40,7 @@ class Pathfinding:
 		self.weights = weights
 
 	def compute_all_paths(self,start_x,start_y,end_x,end_y):
-		'''use mouse to select path endpoint and compute routes for BFS, GBFS, DA, A*'''
+		'''use mouse to select path endpoint and compute routes for BFS, DFS, GBFS, DA, A*'''
 		end_x = SnaptoGrid.snap(end_x)
 		end_y = SnaptoGrid.snap(end_y)
 		start = (start_x,start_y)
