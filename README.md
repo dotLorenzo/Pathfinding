@@ -40,7 +40,7 @@ Uses a Priority Queue and seeks to minimise the distance between the goal and cu
 DA uses a Priority Queue to find the shortest path and allows for 'weights' to be assigned to certain nodes to take into account routes which may be faster / slower despite being further / closer to the goal. In this game, grass and water are assigned heavy movement weights and so DA avoids these areas (unlike BFS/GBFS).
 
 A* uses a combination of GBFS and A* to prioritise routes which are in the general direction of the goal. A* generally runs
-faster than DA, although in this case, A* sometimes overshoots (overestimates distance to goal) and finds a slower route (more nodes to traverse) than DA. This is because in this implementation A* just seeks to minimise the straight line distance (as the crow flies) between the current node being search and the end goal -> this does not take into account any obstacles which may be in the way and hence sometimes overshoots (particularly if there are lots of obstacles).
+faster than DA, although in this case, A* sometimes overshoots (underestimates distance to goal) and finds a slower route (more nodes to traverse) than DA. This is because in this implementation A* just seeks to minimise the straight line distance (as the crow flies) between the current node being search and the end goal -> this does not take into account any obstacles which may be in the way and hence sometimes overshoots (particularly if there are lots of obstacles).
 ![pf_da_astar](https://user-images.githubusercontent.com/31314787/75724898-3f6c2f00-5cd7-11ea-966c-b684d0407a85.PNG)
 
 
