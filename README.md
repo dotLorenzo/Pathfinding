@@ -53,5 +53,5 @@ slow where there are few obstacles as there are few dead ends. It will only run 
 ![pf_dfs](https://user-images.githubusercontent.com/31314787/75724909-43984c80-5cd7-11ea-8360-351ef97bfc41.PNG)
 ![pf_all](https://user-images.githubusercontent.com/31314787/75724918-47c46a00-5cd7-11ea-8902-a54a90fe2807.PNG)
 ![pf_all2](https://user-images.githubusercontent.com/31314787/75724923-4abf5a80-5cd7-11ea-972a-05467f459163.PNG)
-![pf_all2_console_output](https://user-images.githubusercontent.com/31314787/75724925-4c891e00-5cd7-11ea-84f8-bc57893f6937.PNG)
 
+![pf_all2_console_output](https://user-images.githubusercontent.com/31314787/75726619-bbb44180-5cda-11ea-93a5-40e6c9d40e5b.PNG)
