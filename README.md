@@ -1,7 +1,7 @@
 # Pathfinding
 
 Description:
-This project is an interactive game designed to visually show the differences between different graph traversal algorithms, particularly differences chosen routes taken and in running time.
+This project is an interactive game designed to visually show the differences between different graph traversal algorithms, particularly differences in chosen routes taken and in running time.
 
 The game graphically compute paths between pairs of start and end coordinates using various graph traversal algorithms including: Breadth First Search, Depth First Search, Greedy Best First Search, Dijkstra's Algorithm and A* Algorithm.
 
